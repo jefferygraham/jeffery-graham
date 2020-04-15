@@ -1,11 +1,9 @@
 import React from 'react'
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Layout from '../components/layout'
 
 const ContactPage = () => {
     return (
-        <div>
-            <Header />
+        <Layout>
             <h1>Contact</h1>
             <p>
                 Hit me up on Twitter at
@@ -13,8 +11,7 @@ const ContactPage = () => {
                     @jefferylgraham
                 </a>
             </p>
-            <Footer />
-        </div>
+        </Layout>
     )
 }
 
