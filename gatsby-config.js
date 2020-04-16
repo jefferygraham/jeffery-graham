@@ -6,6 +6,10 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: 'Jeff\'s Blog',
+    author: "Jeffery L. Graham"
+  },
   plugins: [
     `gatsby-plugin-sass`
   ]
