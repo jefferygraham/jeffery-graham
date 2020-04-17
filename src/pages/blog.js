@@ -13,6 +13,11 @@ const BlogPage = () => {
                             title
                             date
                         }
+                        html
+                        excerpt
+                        fields {
+                            slug
+                        }
                     }
                 }
             }
@@ -26,7 +31,7 @@ const BlogPage = () => {
             <h1>Blog</h1>
             <ol>
                 {posts.map(post =>
-                    <li key={post.node.frontmatter.title}>
+                    <li key={post.node.fields.slug}>
                         <h2>{post.node.frontmatter.title}</h2>
                         <p>{post.node.frontmatter.date}</p>
                     </li>
