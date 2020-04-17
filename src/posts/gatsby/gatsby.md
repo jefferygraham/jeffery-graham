@@ -7,6 +7,8 @@ I just launched a new website
 
 ## Topics
 
+![Sample Pic](./sample.jpeg)
+
 1. Bio
 2. Portfolio
 3. React
